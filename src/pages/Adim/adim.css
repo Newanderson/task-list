@@ -1,0 +1,84 @@
+
+
+.adim-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+.lista{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    justify-content: center;
+    padding: 14px 8px;
+   
+   
+}
+.lista p{
+    margin-bottom: 8px;
+}
+
+.btn-editar {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    height: 25px;
+    border: 0;
+   
+    border-radius: 5px;
+    padding:0 8px ;
+    background-color: #FFE900;
+    color: black;
+    margin-left: -7px;
+}
+    
+.btn-concluir{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    font-size: 17px;
+    height: 25px;
+    border: 0;
+    color: white;
+    
+    border-radius: 5px;
+    padding:0 8px ;
+    background-color:transparent;
+    border: 1px solid;
+    margin-left: 5px;
+    
+}
+
+
+.btn-sair{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+.btn-sair:hover{
+    background-color: rgba(203, 26, 26, 0.584);
+    color:black;
+
+}
